@@ -1,3 +1,3 @@
-document.addEventListener("DOMContentLoaded", function() {
-  alert("index.js");
-});
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
